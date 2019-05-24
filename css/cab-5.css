@@ -1,0 +1,53 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav{
+    box-shadow: 1px 3px 3px 5px rgb(250, 213, 200);
+}
+
+nav .img{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding: 12px;  
+}
+nav .img img{
+    position: relative;
+    height: 60px;
+}
+
+nav .pesquisa {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding: 12px;
+}
+nav .pesquisa input{
+    position: relative;
+    height: 30px;
+    width: 350px;
+    padding: 0 8px;
+    right: -2px;
+}
+nav .pesquisa input::-webkit-input-placeholder{
+    padding: 0 1px;
+}
+nav .pesquisa button{
+    position: relative;
+    height: 34px;
+    width: 130px;
+    background-color: black;
+    color: aliceblue;
+    border: 1px solid;
+    border-color: black;
+    left: -1px;
+}
+
+nav .midia{
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+}
+nav .midia i{
+    padding: 5px 8px;
+}

@@ -1,0 +1,61 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+Body{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.primeiro, .ultimo{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(205, 205, 255);
+    padding: 12px 50px;
+}
+.ultimo{
+    background-color: rgb(75, 75, 255);
+}
+p, ul {
+    color: rgb(92, 92, 255);
+}
+button, #kit{
+    color: aliceblue;
+}
+button{
+    position: relative;
+    background-color: rgb(75, 75, 255);
+    border: 1px solid rgb(75, 75, 255);
+    height: 30px;
+    left: -5px;
+}
+input{
+    height: 26px;
+    background-color: rgb(205, 205, 255);
+    border: 1px solid rgb(128, 128, 255);
+}
+input::placeholder{
+    color: rgb(92, 92, 255);
+}
+.primeiro .direito{
+    display: flex;
+}
+.primeiro .direito ul li{
+    list-style-type: none;
+    padding: 2px;
+}
+.ultimo .midia{
+    margin-top: 10px;
+}
+.ultimo .midia i{
+    color: white;
+    padding: 0px 14px;
+}
+@media(max-width:800px){
+    footer .primeiro, .direito{
+        flex-direction: column;
+    }
+}

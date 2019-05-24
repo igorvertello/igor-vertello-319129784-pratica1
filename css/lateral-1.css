@@ -1,0 +1,36 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+Body{
+    margin: 0;
+    padding: 0;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+.foto{
+    width: 250px;
+}
+.foto{
+    background-color: gray;
+    height: 150px;
+    padding: 8px 30px;
+}
+.foto p{
+    color: aliceblue;
+    padding: 30px 0;
+}
+.menu{
+    width: 310px;
+    background-color: rgb(221, 221, 221);
+}
+.menu ul li{
+    list-style-type: none;
+    padding: 12px 0;
+    color: rgb(87, 87, 87);
+}
+.menu span{
+    padding: 0 15px;
+}

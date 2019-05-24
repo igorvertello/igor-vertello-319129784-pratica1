@@ -1,0 +1,36 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 3px 3px 5px rgb(250, 213, 200);
+
+}
+img{
+    position: relative;
+    top: 10px;
+    height: 60px;
+}
+ul{
+    display: flex;
+    padding: 8px 2px;
+}
+ul li{
+    position: relative;
+    list-style-type: none;
+    padding: 5px;
+    right: 5px;
+}
+@media(max-width:910px){
+    nav{
+        flex-direction: column;
+        height: 120px;
+    }
+    img{
+        width: 200px;
+        left: 80px;
+    }
+}

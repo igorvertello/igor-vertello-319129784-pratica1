@@ -1,0 +1,39 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+Body{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    display: flex;
+}
+.col{
+    display: inline;
+    padding: 10px;
+}
+p{
+    font-weight: 100;
+}
+img{
+    position: relative;
+    height: 60px;
+    padding: 1.5px 0;
+}
+button{
+    font-size: 1.2rem;
+    height: 34px;
+    width: 130px;
+    background-color: black;
+    color: aliceblue;
+    border: 1px solid;
+    border-color: black;
+}
+.midia i{
+    width: 50px
+}
+@media(max-width:750px){
+    footer{
+        flex-direction: column;
+    }
+}
