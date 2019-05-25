@@ -82,11 +82,12 @@ nav .midia i{
         top: 10px;
     }
     nav .superior{
-        justify-content: unset;
+         flex-direction: column; 
+       
 
     }
     nav .superior ul{
-        display: inline;
+        display: flex;
         justify-content: unset;
     }
     
@@ -109,10 +110,10 @@ nav .midia i{
     }
 
     nav .midia{
-        text-align: right;
+        float: left;
         position: relative;
         top: 110px;
         left: 0%;
-        width: 120px;
+        width: 250px;
     }
 }
